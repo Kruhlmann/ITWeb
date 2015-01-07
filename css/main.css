@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    background-image:url(/images/grunge_wall.png);
+    background-image:url(../images/grunge_wall.png);
 
 
 }
@@ -14,15 +14,13 @@ body {
     
     
     /* background and ani */
-    background-image: url(images/1.png);
+    background-image: url(../images/1.png);
     background-origin: content-box;
     backface-visibility: visible;
     background-position: center;
     background-size: cover;
     
 }
-
-
 
 .max-width {
 max-width: 1024px;
@@ -34,7 +32,7 @@ max-width: 1024px;
     height: 300px;
     margin-top: 50px;
     box-shadow: 2px 4px 5px 0.00px rgba(0, 0, 0, 0.33);
-    background-image: url(images/tactile_noise.png);
+    background-image: url(../images/tactile_noise.png);
 
 }
 
@@ -53,7 +51,7 @@ max-width: 1024px;
     border-bottom-right-radius:0.2em;
 border-bottom-left-radius:0.2em;
     box-shadow: 5px 5px 5px 0.00px rgba(0, 0, 0, 0.33);
-    background-image:url(images/pixel_weave.png);
+    background-image:url(../images/pixel_weave.png);
     opacity: 0.89;
     
     
@@ -122,7 +120,7 @@ border-bottom-left-radius:0.2em;
     margin-top: -8px;
     top: -8px;
     box-shadow: 2px 4px 5px 0.00px rgba(0, 0, 0, 0.33);
-    background-image: url(images/small_steps.png);
+    background-image: url(../images/small_steps.png);
 
 }
 
@@ -276,44 +274,45 @@ border-bottom-left-radius:0;
     
     
     .toggelbut {
-float: right;
+        float: right;
+    }
+        
+    .mobilmenudiv {
+        width: 90%;
+        height: 60%;
+        opacity: 1;
+        border: 1px;
+        border-color: #FFF;
+        padding: 5px;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        margin: 0px;
+        color: #505050;
+        display: ;
 
-}
-    
-.mobilmenudiv {
-    width: 90%;
-    height: 60%;
-    opacity: 1;
-    border: 1px;
-    border-color: #FFF;
-    padding: 5px;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    margin: 0px;
-    color: #505050;
-    display: ;
+    }
+        
+    .menudiv ul {
+        display: none;
+        width: 0px;
+        height: 0px;
+    }
 
-}
-    
-.menudiv ul {
-    display: none;
-    width: 0px;
-    height: 0px;
-
-
-}
-   
-.menudiv {
-    border-bottom-right-radius: none;
-border-bottom-left-radius: none;
-}
+    .menudiv a {
+        text-decoration: none;
+    }
+       
+    .menudiv {
+        border-bottom-right-radius: none;
+        border-bottom-left-radius: none;
+    }
 
     #toggelM_menu{
-    display:block;
-    
+        display:block;
+        
 
-}
+    }
     
     
 
@@ -326,52 +325,50 @@ border-bottom-left-radius: none;
     height: 49px;
     width: 100%;
         
-}
-    
-.toggelbut {
-float: right;
+    }
+        
+    .toggelbut {
+    float: right;
 
-}
-    
-.mobilmenudiv {
-    width: 90%;
-    height: 60%;
-    opacity: 1;
-    border: 1px;
-    border-color: #FFF;
-    padding: 5px;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    margin: 0px;
-    color: #505050;
-    display: ;
+    }
+        
+    .mobilmenudiv {
+        width: 90%;
+        height: 60%;
+        opacity: 1;
+        border: 1px;
+        border-color: #FFF;
+        padding: 5px;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        margin: 0px;
+        color: #505050;
+        display: ;
 
-}
-    
-.menudiv ul {
-    display: none;
-    width: 0px;
-    height: 0px;
+    }
+        
+    .menudiv ul {
+        display: none;
+        width: 0px;
+        height: 0px;
+    }
 
+    .menudiv a {
+        text-decoration: none;
+    }
+       
+    .menudiv {
+        background-image: none;
+        background-color: none;
+        border-bottom-right-radius: none;
+        border-bottom-left-radius: none;
+    }
 
-}
-   
-.menudiv {
-    background-image: none;
-    background-color: none;
-    border-bottom-right-radius: none;
-border-bottom-left-radius: none;
-}
+        
+    #toggelM_menu{
+        display:block;
+        
 
-    
-#toggelM_menu{
-    display:block;
-    
-
-}
-
-    
-
-    
+    }    
 }
