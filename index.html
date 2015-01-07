@@ -1,0 +1,76 @@
+<html>
+<head>
+    
+    <!-- link afdeling -->
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/3cols.css">
+    <!--google fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Poiret+One&subset=latin,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
+    <!-- link afdeling SLUT -->
+    <!-- script link afdeling-->
+    <script src="BMI.js" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+   <script> 
+$(document).ready(function(){
+  $("#toggelM_menu").click(function(){
+    $("#M_mobil").slideToggle("slow");
+  });
+});
+</script>
+    <!-- script link afdeling slut-->
+</head>
+<body>
+    <center>
+        
+        <div class="M_mobil" id="M_mobil">
+            <dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+</dl>
+        </div>
+        <div class="top">
+            
+        <div class="menudiv max-width">
+            <img class="logo" src="images/small_logo.png">
+            <img id="toggelM_menu" class="toggelbut" src="images/dropdown.png">
+            <ul>
+                <a href="#pagetwo" data-transition="slide" data-direction="reverse"><il class=menuil>Forside</il></a>
+                 <a href="#pagetwo" data-transition="slide" data-direction="reverse"><il class=menuil>Fysiologi</il></a>
+                 <a href="#pagetwo" data-transition="slide" data-direction="reverse"><il class=menuil>Træningsprogram</il></a>
+                 <a href="#pagetwo" data-transition="slide" data-direction="reverse"><il class=menuil>Løbesko</il></a>
+                <a href="#pagetwo" data-transition="slide" data-direction="reverse"><il class=menuil>Test dig selv</il></a>
+            </ul>
+        </div>
+    
+        
+    </div>
+     <div class="section group max-width">
+                <div class="col span_1_of_3 box"></div>
+                <div class="col span_1_of_3 box"></div>
+                <div class="col span_1_of_3 box">
+ <center>      <div class="box1"> <h3>BMI beregner</h3>
+    <form name="bmiForm">
+<input placeholder="Vægt i KG" class="form" type="text" name="weight" value="" size="10"><br />
+<input placeholder="Højde i CM" class="form" type="text" name="height" value="" size="10"><br /><br>
+<input class="form button" type="button" value="Regn mit BMI" onClick="calculateBmi()"><br />   
+<input maxlength="0" class="big" placeholder="BMItal" class="form" type="text" name="bmi" size="10"><br />
+ <input maxlength="0" placeholder="Betydning af BMI" class="form" type="text" name="meaning" size="25"><br />
+<input class="form" style="display:none;" type="text" name="graf" size="25"><br />
+<input class="form button" type="reset" onclick="nulstil()" value="Reset"/> 
+</form>
+       <div class="holder" name="holder">
+ <div id="bor"> </div>
+           </div>
+     
+    </div>
+     
+         </center>  
+         </div>
+        </div>
+    </center>
+    
+    
+</body>
+</html>
