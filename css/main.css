@@ -19,6 +19,8 @@ body {
     backface-visibility: visible;
     background-position: center;
     background-size: cover;
+    -webkit-transition: height 2s; /* For Safari 3.1 to 6.0 */
+    transition: height 2s;
     
 }
 
