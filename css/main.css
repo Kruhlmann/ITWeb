@@ -23,8 +23,7 @@ body {
 }
 
 .max-width {
-max-width: 1024px;
-
+    max-width: 1024px;
 }
 
 .box {
@@ -49,13 +48,15 @@ max-width: 1024px;
     width: 100%;
     height: 50px;
     border-bottom-right-radius:0.2em;
-border-bottom-left-radius:0.2em;
+    border-bottom-left-radius:0.2em;
     box-shadow: 5px 5px 5px 0.00px rgba(0, 0, 0, 0.33);
     background-image:url(../images/pixel_weave.png);
     opacity: 0.89;
-    
-    
-
+    position: fixed;
+    margin-right: auto;
+    margin-left: auto;
+    left: 0;
+    right: 0;
 }
 
 .menudiv ul, M_mobil ul, dl {
@@ -66,9 +67,8 @@ border-bottom-left-radius:0.2em;
     opacity: 1;
     float: right;
     margin-right: 10px;
-    
-
 }
+
 .menudiv il, M_mobil il, il {
     color: #FFF;
     font-family: Poiret One;
@@ -82,33 +82,21 @@ border-bottom-left-radius:0.2em;
     border-radius: 5px;
     transition: 0.5s;
     text-decoration: none;
-    
-
 }
 
 .menudiv il:hover, M_mobil il:hover, M_mobil il:hover {
     color: #FF4000;
     background-color:#383838;
- 
-    
-    
-
 }
 
 .menudiv il:active, M_mobil il:active, M_mobil il:active {
     color: #FF0000;
     background-color:#1C1C1C;
-   
-    
-    
-
 }
 
 .mobilmenu {
     display: none;
     float: left;
-
-
 }
 
 #M_mobil {
@@ -121,7 +109,6 @@ border-bottom-left-radius:0.2em;
     top: -8px;
     box-shadow: 2px 4px 5px 0.00px rgba(0, 0, 0, 0.33);
     background-image: url(../images/small_steps.png);
-
 }
 
 #toggelM_menu{
@@ -132,39 +119,30 @@ border-bottom-left-radius:0.2em;
 
 }
 
-M_mobil il {
-    
-
-
-}
-
 .toggelbut {
-float: left;
-    
-
+    float: left;
 }
 
 
 /* BMI CSS */
 
- .holder {
+ .holder {   
+    width: 100%;
+    border: 1px solid;
+    border-radius: 15px;
+    float: left;
                 
-                width: 100%;
-                border: 1px solid;
-                border-radius: 15px;
-                float: left;
-                
-background: rgb(34,154,201); /* Old browsers */
-/* IE9 SVG, needs conditional override of 'filter' to 'none' */
-background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI0MCUiIHN0b3AtY29sb3I9IiMyMjlhYzkiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI0MCUiIHN0b3AtY29sb3I9IiMyMjlhYzkiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI2NCUiIHN0b3AtY29sb3I9IiNiNmUwMjYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI4OSUiIHN0b3AtY29sb3I9IiNlMjM3MmIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-background: -moz-linear-gradient(left,  rgba(34,154,201,1) 40%, rgba(34,154,201,1) 40%, rgba(182,224,38,1) 64%, rgba(226,55,43,1) 89%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, right top, color-stop(40%,rgba(34,154,201,1)), color-stop(40%,rgba(34,154,201,1)), color-stop(64%,rgba(182,224,38,1)), color-stop(89%,rgba(226,55,43,1))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(left,  rgba(34,154,201,1) 40%,rgba(34,154,201,1) 40%,rgba(182,224,38,1) 64%,rgba(226,55,43,1) 89%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(left,  rgba(34,154,201,1) 40%,rgba(34,154,201,1) 40%,rgba(182,224,38,1) 64%,rgba(226,55,43,1) 89%); /* Opera 11.10+ */
-background: -ms-linear-gradient(left,  rgba(34,154,201,1) 40%,rgba(34,154,201,1) 40%,rgba(182,224,38,1) 64%,rgba(226,55,43,1) 89%); /* IE10+ */
-background: linear-gradient(to right,  rgba(34,154,201,1) 40%,rgba(34,154,201,1) 40%,rgba(182,224,38,1) 64%,rgba(226,55,43,1) 89%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#229ac9', endColorstr='#e2372b',GradientType=1 ); /* IE6-8 */
-            }
+    background: rgb(34,154,201); /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI0MCUiIHN0b3AtY29sb3I9IiMyMjlhYzkiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI0MCUiIHN0b3AtY29sb3I9IiMyMjlhYzkiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI2NCUiIHN0b3AtY29sb3I9IiNiNmUwMjYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI4OSUiIHN0b3AtY29sb3I9IiNlMjM3MmIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(left,  rgba(34,154,201,1) 40%, rgba(34,154,201,1) 40%, rgba(182,224,38,1) 64%, rgba(226,55,43,1) 89%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(40%,rgba(34,154,201,1)), color-stop(40%,rgba(34,154,201,1)), color-stop(64%,rgba(182,224,38,1)), color-stop(89%,rgba(226,55,43,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  rgba(34,154,201,1) 40%,rgba(34,154,201,1) 40%,rgba(182,224,38,1) 64%,rgba(226,55,43,1) 89%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  rgba(34,154,201,1) 40%,rgba(34,154,201,1) 40%,rgba(182,224,38,1) 64%,rgba(226,55,43,1) 89%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  rgba(34,154,201,1) 40%,rgba(34,154,201,1) 40%,rgba(182,224,38,1) 64%,rgba(226,55,43,1) 89%); /* IE10+ */
+    background: linear-gradient(to right,  rgba(34,154,201,1) 40%,rgba(34,154,201,1) 40%,rgba(182,224,38,1) 64%,rgba(226,55,43,1) 89%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#229ac9', endColorstr='#e2372b',GradientType=1 ); /* IE6-8 */
+}
 
 .button {
    width: 120px;
@@ -262,7 +240,8 @@ input:focus {
     .menudiv{ 
         
         border-bottom-right-radius:0;
-border-bottom-left-radius:0;
+        border-bottom-left-radius:0;
+        position: relative;
     
     }
     
@@ -306,16 +285,12 @@ border-bottom-left-radius:0;
     .menudiv {
         border-bottom-right-radius: none;
         border-bottom-left-radius: none;
+        position: relative;
     }
 
     #toggelM_menu{
         display:block;
-        
-
     }
-    
-    
-
 }
 
 
@@ -363,6 +338,7 @@ border-bottom-left-radius:0;
         background-color: none;
         border-bottom-right-radius: none;
         border-bottom-left-radius: none;
+        position: relative;
     }
 
         
