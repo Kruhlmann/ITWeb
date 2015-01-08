@@ -29,6 +29,13 @@ body {
     
 }
 
+.mag {
+    -webkit-transition: height 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: height 0.5s;
+    
+
+}
+
 .max-width {
     max-width: 1024px;
 }
