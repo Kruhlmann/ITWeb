@@ -5,12 +5,17 @@ body {
 
 }
 
+.mag {
+    height: 420px;
+}
+
 .top {
     height: 420px;
     box-shadow: 0px 0px 9px 0.00px rgba(0, 0, 0, 0.33);
     width: 100%;
     padding: 0px;
     margin: 0px;
+    position: fixed;
     
     
     /* background and ani */
@@ -19,8 +24,8 @@ body {
     backface-visibility: visible;
     background-position: center;
     background-size: cover;
-    -webkit-transition: height 2s; /* For Safari 3.1 to 6.0 */
-    transition: height 2s;
+    -webkit-transition: height 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: height 0.5s;
     
 }
 

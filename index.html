@@ -22,6 +22,14 @@
          $('.top').css({'height': '420'}); 
      }
 });
+        
+        $( window ).scroll(function() {
+     if($(window).scrollTop() > 100){
+       $('.mag').css({'height': '250'}); 
+     }else{
+         $('.mag').css({'height': '420'}); 
+     }
+});
     </script>
 
     <!-- Responsive listener-->
@@ -53,6 +61,7 @@
 		        </div>
 	        </center>
     	</div>
+        <div class="mag"></div>
      	<div class="section group max-width">
 	        <div class="col span_1_of_3 box"></div>
 	        <div class="col span_1_of_3 box"></div>
