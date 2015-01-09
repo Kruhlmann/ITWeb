@@ -31,8 +31,14 @@ body {
 
 .mag {
     -webkit-transition: height 0.5s; /* For Safari 3.1 to 6.0 */
-    transition: height 0.5s;
-    
+    transition: height 0.5s;    
+}
+
+.fullbox {
+    width: 100%;
+    box-shadow: 2px 4px 5px 0.00px rgba(0, 0, 0, 0.33);
+    background-image: url(../images/tactile_noise.png);
+    min-height: 200px;
 
 }
 
@@ -111,6 +117,9 @@ body {
 .mobilmenu {
     display: none;
     float: left;
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #M_mobil {
