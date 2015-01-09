@@ -1,5 +1,9 @@
-var cars = ["0", "1", "2"];
+var boxContent = ["
+			<b>Trolund</b> er gr8", 
+			"<b>Hassan</b> er gr8", 
+			"<b>Allah</b> er gr8"
+				];
 
-function hotSwapBox(id){
-    document.getElementById("box"+id).innerHTML = boxContent[id];
+function hotSwapBox(boxID, contentId){
+    document.getElementById("box"+boxId).innerHTML = boxContent[contentId];
 }
