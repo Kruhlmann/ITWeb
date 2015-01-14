@@ -140,6 +140,13 @@ body {
     
 }
 
+#M_mobil il {
+    display: block;
+    width: 100%;
+    
+
+}
+
 #toggelM_menu{
     display: none;
     margin-top: 0px;
