@@ -12,25 +12,9 @@
     <link href='http://fonts.googleapis.com/css?family=Poiret+One&subset=latin,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
 
     <script src="js/BMI.js" type="text/javascript"></script>
+	<script src="js/eventListener.js" type="text/javascript"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    
-    <script>
-        $( window ).scroll(function() {
-     if($(window).scrollTop() > 50){
-       $('.top').css({'height': '50'}); 
-     }else{
-         $('.top').css({'height': '420'}); 
-     }
-});
-        
-        $( window ).scroll(function() {
-     if($(window).scrollTop() > 50){
-       $('.mag').css({'height': '50'}); 
-     }else{
-         $('.mag').css({'height': '420'}); 
-     }
-});
-    </script>
+	<script src="js/hotSwap.js" type="text/javascript"></script>
 
     <!-- Responsive listener-->
     <script> 
@@ -41,7 +25,8 @@
 		});
 	</script>
 </head>
-<body>
+<body onresize="onResize()">
+    </script>
     <center>
         <div class="M_mobil" id="M_mobil">
     		<!-- Responsive menu content -->
@@ -104,9 +89,7 @@
         
         
         
-    </center><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </center><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     
-<script src="js/hotSwap.js" type="text/javascript"></script>
-<script src="js/eventListener.js" type="text/javascript"></script>
 </body>
 </html>
