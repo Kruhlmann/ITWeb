@@ -144,6 +144,12 @@ body {
     display: block;
     width: 100%;
     margin: 0px;
+    background-color:none;
+
+}
+#M_mobil ul {
+    margin-left: -60px;
+     background-color:none;
 
 }
 
