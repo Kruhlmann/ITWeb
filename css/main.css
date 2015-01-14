@@ -342,7 +342,7 @@ input:focus {
 
 @media only screen and (max-width:480px) {
     .top {
-    height: 49px;
+    height: 420px;
     width: 100%;
         
     }
