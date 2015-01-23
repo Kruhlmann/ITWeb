@@ -13,14 +13,14 @@ function onResize(){
 	     		if($(window).scrollTop() > 50){
 	       			$('.top').css({'height': '50'}); 
 	     		}else{
-	         		$('.top').css({'height': '420'}); 
+	         		$('.top').css({'height': '320'}); 
 	     		}
 			});
 	        $( window ).scroll(function() {
 		     	if($(window).scrollTop() > 50){
 			    	$('.mag').css({'height': '50'}); 
 			    }else{
-			        $('.mag').css({'height': '420'}); 
+			        $('.mag').css({'height': '320'}); 
 			    }
 			});
     	}else {
@@ -28,14 +28,14 @@ function onResize(){
 	     		if($(window).scrollTop() > 50){
 	       			$('.top').css({'height': '100'}); 
 	     		}else{
-	         		$('.top').css({'height': '420'}); 
+	         		$('.top').css({'height': '320'}); 
 	     		}
 			});
 	        $( window ).scroll(function() {
 		     	if($(window).scrollTop() > 50){
 			    	$('.mag').css({'height': '100'}); 
 			    }else{
-			        $('.mag').css({'height': '420'}); 
+			        $('.mag').css({'height': '320'}); 
 			    }
 			});
     	}
