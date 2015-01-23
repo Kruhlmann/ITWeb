@@ -15,7 +15,7 @@
     <script src="js/BMI.js" type="text/javascript"></script>
 	<script src="js/eventListener.js" type="text/javascript"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script src="js/hotSwap.js" type="text/javascript"></script>
+	<script src="js/onload.js" type="text/javascript"></script>
 
     <!-- Responsive listener-->
     <script> 
@@ -26,18 +26,20 @@
 		});
 	</script>
 </head>
-<body onresize="onResize()">
+<body onresize="onResize()" onload="init()">
     </script>
     <center>
         <div class="M_mobil" id="M_mobil">
     		<!-- Responsive menu content -->
              <ul>
-		                <a style="text-decoration: none;" href="#pagetwo" data-transition="slide" data-direction="reverse"><il class=menuil>Forside</il></a>
-		                 <a style="text-decoration: none;" href="#pagetwo" data-transition="slide" data-direction="reverse"><il onclick="" class=menuil>Fysiologi</il></a>
-		                 <a style="text-decoration: none;" href="#pagetwo" data-transition="slide" data-direction="reverse"><il class=menuil>Træningsprogram</il></a>
-		                 <a style="text-decoration: none;" href="#pagetwo" data-transition="slide" data-direction="reverse"><il class=menuil>Løbesko</il></a>
-		                <a style="text-decoration: none;"href="#pagetwo" data-transition="slide" data-direction="reverse"><il class=menuil>Test dig selv</il></a>
-		            </ul>
+                <a style="text-decoration: none;" href="#pagetwo" data-transition="slide" data-direction="reverse"><il class="menuil">Forside</il></a>
+
+                 <a onclick="hotSwapBox(1)"style="text-decoration: none;" href="#pagetwo" data-transition="slide" data-direction="reverse"><il class="menuil">Fysiologi</il></a>
+
+                 <a style="text-decoration: none;" href="#pagetwo" data-transition="slide" data-direction="reverse"><il class="menuil">Træningsprogram</il></a>
+                 <a style="text-decoration: none;" href="#pagetwo" data-transition="slide" data-direction="reverse"><il class="menuil">Løbesko</il></a>
+                <a style="text-decoration: none;"href="#pagetwo" data-transition="slide" data-direction="reverse"><il class="menuil">Test dig selv</il></a>
+		    </ul>
         </div>
         <div class="top">
         	<center id="center">
@@ -86,7 +88,10 @@
             </div>
         </div>
         
-        <div class="fullbox max-width"></div>
+		<a name="content" style="margin-top: -500px;">
+
+        <div class="fullbox max-width" id="box0"><div class="boxinner"></div>
+        </div>
         
         
         

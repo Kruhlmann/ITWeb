@@ -5,6 +5,14 @@ body {
 
 }
 
+#box0 {
+    color: #eee;
+}
+
+.boxinner {
+    padding: 20px;
+}
+
 .mag {
     height: 420px;
 }
@@ -40,7 +48,7 @@ body {
     box-shadow: 2px 4px 5px 0.00px rgba(0, 0, 0, 0.33);
     background-image: url(../images/tactile_noise.png);
     min-height: 200px;
-
+    text-align: left;
 }
 
 .max-width {
