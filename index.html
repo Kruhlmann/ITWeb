@@ -32,7 +32,7 @@
         <div class="M_mobil" id="M_mobil">
     		<!-- Responsive menu content -->
              <ul>
-                <a style="text-decoration: none;" href="#pagetwo" data-transition="slide" data-direction="reverse"><il class="menuil">Forside</il></a>
+                <a style="text-decoration: none;" href="#content" data-transition="slide" data-direction="reverse"><il class="menuil">Forside</il></a>
 
                  <a onclick="hotSwapBox(1)"style="text-decoration: none;" href="#pagetwo" data-transition="slide" data-direction="reverse"><il class="menuil">Fysiologi</il></a>
 
@@ -47,7 +47,7 @@
 		            <img class="logo" src="images/small_logo.png">
 		            <img id="toggelM_menu" class="toggelbut" src="images/dropdown.png">
 		            <ul>
-		                <a style="text-decoration: none;" href="#pagetwo" data-transition="slide" data-direction="reverse"><il class=menuil>Forside</il></a>
+		                <a style="text-decoration: none;" href="#content" data-transition="slide" data-direction="reverse"><il class=menuil>Forside</il></a>
 		                 <a style="text-decoration: none;" href="#pagetwo" data-transition="slide" data-direction="reverse"><il class=menuil>Fysiologi</il></a>
 		                 <a style="text-decoration: none;" href="#pagetwo" data-transition="slide" data-direction="reverse"><il class=menuil>Træningsprogram</il></a>
 		                 <a style="text-decoration: none;" href="#pagetwo" data-transition="slide" data-direction="reverse"><il class=menuil>Løbesko</il></a>
@@ -70,10 +70,16 @@
 	    				<form name="bmiForm">
 						<input placeholder="Vægt i KG" class="form" type="text" name="weight" value="" size="10"><br />
 						<input placeholder="Højde i CM" class="form" type="text" name="height" value="" size="10"><br /><br>
-						<input class="form button" type="button" value="Regn mit BMI" onClick="calculateBmi()"><br />   
-						<input maxlength="0" class="big" placeholder="BMItal" class="form" type="text" name="bmi" size="10"><br />
-						 <input maxlength="0" placeholder="Betydning af BMI" class="form" type="text" name="meaning" size="25"><br />
-						<input class="form" style="display:none;" type="text" name="graf" size="25"><br />
+						<input class="form button" type="button" value="Regn mit BMI" onClick="calculateBmi()">
+						<br />
+
+						<input maxlength="0" class="big" placeholder="BMItal" class="form" type="text" name="bmi" size="10">
+						<br />
+						<a name="content">
+						<input maxlength="0" placeholder="Betydning af BMI" class="form" type="text" name="meaning" size="25">   
+						<br />
+						<input class="form" style="display:none;" type="text" name="graf" size="25">
+						<br />
 						<input class="form button" type="reset" onclick="nulstil()" value="Reset"/> 
 						</form>
 	       				<div class="holder" name="holder">
@@ -87,8 +93,7 @@
 	            </center>  
             </div>
         </div>
-        
-		<a name="content" style="margin-top: -500px;">
+
 
         <div class="fullbox max-width" id="box0"><div class="boxinner"></div>
         </div>
