@@ -36,7 +36,7 @@
         <div class="M_mobil" id="M_mobil">
     		<!-- Responsive menu content -->
              <ul>
-                <a style="text-decoration: none;" href="#content" data-transition="slide" data-direction="reverse"><il class="menuil">Forside</il></a>
+                <a style="text-decoration: none;" href="#mobile_content" data-transition="slide" data-direction="reverse"><il class="menuil">Forside</il></a>
 
                  <a onclick="hotSwapBox(1)"style="text-decoration: none;" href="#pagetwo" data-transition="slide" data-direction="reverse"><il class="menuil">Fysiologi</il></a>
 
@@ -89,6 +89,7 @@
 	       				<div class="holder" name="holder">
 	 						<div id="bor"> </div>
 	 					</div>
+						<a name="mobile_content">
 	    			</div>
                     
                     
@@ -99,7 +100,10 @@
         </div>
 
 
-        <div class="fullbox max-width" id="box0"><div class="boxinner"></div>
+        <div class="fullbox max-width" id="box0">
+	        <div class="boxinner">
+	        	<iframe id="contentFrame" src="includes/main.html" name="iframe_a" frameborder="0"></iframe>
+	        </div>
         </div>
         
         

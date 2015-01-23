@@ -1,0 +1,26 @@
+body {
+}
+
+p {
+    color: #ededed;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+img {
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    border: 2px solid #dd8500;
+}
