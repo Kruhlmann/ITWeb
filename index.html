@@ -16,6 +16,11 @@
 	<script src="js/eventListener.js" type="text/javascript"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="js/onload.js" type="text/javascript"></script>
+    <!-- Iframe auto height-->
+    <script type="text/javascript">
+function AdjustIframeHeightOnLoad() { document.getElementById("contentFrame").style.height = document.getElementById("contentFrame").contentWindow.document.body.scrollHeight + "px"; }
+function AdjustIframeHeight(i) { document.getElementById("contentFrame").style.height = parseInt(i) + "px"; }
+</script>
 
     <!-- Responsive listener-->
     <script> 
@@ -102,13 +107,16 @@
 
         <div class="fullbox max-width" id="box0">
 	        <div class="boxinner">
-	        	<iframe id="contentFrame" src="includes/main.html" name="iframe_a" frameborder="0"></iframe>
+	        	<iframe onload="AdjustIframeHeightOnLoad()" scrolling="no" seamless id="contentFrame" src="includes/main.html" name="iframe_a" class="ifra" frameborder="0"></iframe>
 	        </div>
         </div>
-        
-        
-        
-    </center><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <div class="footer">
+                    <div class="innerdivfooter max-width">
+                       <h1 style="font-size: 15; ">Webdesign af Andreas Krühlmann og Troels Lund</h1> 
+                        <p style="font-size: 12;">Lavet i informationsteknologi C undervisningen på Falkonergårdens Gymnasium og HF-kursus</p>
+                    </div>
+                </div>
+    </center>
     
 </body>
 </html>
