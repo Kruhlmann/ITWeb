@@ -21,7 +21,10 @@
 	<script src="js/eventListener.js" type="text/javascript"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="js/onload.js" type="text/javascript"></script>
+<<<<<<< Updated upstream:index.php
 
+=======
+>>>>>>> Stashed changes:index.html
     <!-- Responsive listener-->
 	<script> 
 		$(document).ready(function(){
@@ -32,7 +35,11 @@
 		    $("#M_mobil").slideToggle("slow");
 		  });
 		});
+<<<<<<< Updated upstream:index.php
 	</script>
+=======
+</script>
+>>>>>>> Stashed changes:index.html
 </head>
 <body onresize="onResize()" onload="init()">
     </script>
@@ -106,7 +113,11 @@
 
         <div class="fullbox max-width" id="box0">
 	        <div class="boxinner">
+<<<<<<< Updated upstream:index.php
 	        <? include('includes/'.$page.'.php') ?>
+=======
+	        	<iframe onLoad="autoResize('contentFrame');" scrolling="no" seamless id="contentFrame" src="includes/main.html" name="iframe_a" class="ifra" frameborder="0"></iframe>
+>>>>>>> Stashed changes:index.html
 	        </div>
         </div>
                 <div class="footer">
