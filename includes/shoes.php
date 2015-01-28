@@ -5,31 +5,31 @@
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
 </head>
 <body>
-    <p class="left">
-Pronation dæmper dit landingsstød ved løb
-Når du lander, falder din fod lidt indad og flader en smule ud, inden den retter sig op. Det kaldes pronation og er din fods støddæmpning.
-PrintSend
+<p class="left">
+	Pronation dæmper dit landingsstød ved løb
+	Når du lander, falder din fod lidt indad og flader en smule ud, inden den retter sig op. Det kaldes pronation og er din fods støddæmpning.
+	PrintSend
 
-Emner: løb forebyggelse løbe-støddæmpning løbesko skader udstyr<br>
-Pronation - et uldent område
-        <div class="right">
-Der er på ingen måde enighed blandt forskerne om, hvordan pronation skal beskrives og måles. Og det giver grobund for både hjemmestrikkede lommefilosofier og kreative påhit fra fabrikanter af løbesko. Læs mere:
-Løbestilsanalyse: Spinkelt grundlag når du køber løbesko
-Pronationen kan måske give skader
-Både for stor pronation og for lille pronation kan muligvis give skader, fordi ingen af delene giver en ordentlig støddæmpning. Det samme gælder den hurtige og den forlængede pronation.
-Forskerne har dog aldrig kunnet påvise en sammenhæng mellem pronation og skader.
-Læs idrætsfyssens gode råd:
-Løb: Sådan lander du bedst på jorden
-Læs mere om valg af løbesko:
-Løbesko forebygger ikke skader
-Hvor tit skal jeg købe nye løbesko?
-Læs om løbeskader
-Du kan læse om de mest almindelige løbeskader og deres årsager, forebyggelse og genoptræning, her:
-Løb: Undgå at få en skade
-DGI-hæfte om løbeskader
-Læs mere om løbeskader i DGI's hæfte fra september 2012, skrevet af tre fysioterapeuter og løbetrænere: Hanne Fejerskov, Annemarie Lundsgaard og Thomas Stenger. Du kan købe det for125 kr. i DGI-Butikken:
-Løbeskader – forebyggelse og behandling
-    </div>
+	Emner: løb forebyggelse løbe-støddæmpning løbesko skader udstyr<br>
+	Pronation - et uldent område
+<div class="right">
+	Der er på ingen måde enighed blandt forskerne om, hvordan pronation skal beskrives og måles. Og det giver grobund for både hjemmestrikkede lommefilosofier og kreative påhit fra fabrikanter af løbesko. Læs mere:
+	Løbestilsanalyse: Spinkelt grundlag når du køber løbesko
+	Pronationen kan måske give skader
+	Både for stor pronation og for lille pronation kan muligvis give skader, fordi ingen af delene giver en ordentlig støddæmpning. Det samme gælder den hurtige og den forlængede pronation.
+	Forskerne har dog aldrig kunnet påvise en sammenhæng mellem pronation og skader.
+	Læs idrætsfyssens gode råd:
+	Løb: Sådan lander du bedst på jorden
+	Læs mere om valg af løbesko:
+	Løbesko forebygger ikke skader
+	Hvor tit skal jeg købe nye løbesko?
+	Læs om løbeskader
+	Du kan læse om de mest almindelige løbeskader og deres årsager, forebyggelse og genoptræning, her:
+	Løb: Undgå at få en skade
+	DGI-hæfte om løbeskader
+	Læs mere om løbeskader i DGI's hæfte fra september 2012, skrevet af tre fysioterapeuter og løbetrænere: Hanne Fejerskov, Annemarie Lundsgaard og Thomas Stenger. Du kan købe det for125 kr. i DGI-Butikken:
+	Løbeskader – forebyggelse og behandling
+</div>
     
     
 Pronation er fodens naturlige støddæmpning. Fungerer din pronation ikke optimalt, har du større risiko for at få skader.

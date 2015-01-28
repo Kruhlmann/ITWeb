@@ -1,3 +1,8 @@
+<?php 
+	$page = $_GET['p'];
+	if($page == "") $page = "main";
+?>
+
 <!DOCTYPE xhtml>
 <html>
 <head>
@@ -16,23 +21,17 @@
 	<script src="js/eventListener.js" type="text/javascript"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="js/onload.js" type="text/javascript"></script>
-    <!-- Iframe auto height-->
-    <script type="text/javascript">
-function AdjustIframeHeightOnLoad() { document.getElementById("contentFrame").style.height = document.getElementById("contentFrame").contentWindow.document.body.scrollHeight + "px"; }
-function AdjustIframeHeight(i) { document.getElementById("contentFrame").style.height = parseInt(i) + "px"; }
-</script>
 
     <!-- Responsive listener-->
-    <script> 
+	<script> 
 		$(document).ready(function(){
 		  $("#toggelM_menu").click(function(){
 		    $("#M_mobil").slideToggle("slow");
 		  });
-          $("#M_mobil il").click(function(){
+	      $("#M_mobil il").click(function(){
 		    $("#M_mobil").slideToggle("slow");
 		  });
 		});
-</script>
 	</script>
 </head>
 <body onresize="onResize()" onload="init()">
@@ -59,7 +58,7 @@ function AdjustIframeHeight(i) { document.getElementById("contentFrame").style.h
 		                <a style="text-decoration: none;" href="#content" data-transition="slide" data-direction="reverse"><il class=menuil>Forside</il></a>
 		                 <a style="text-decoration: none;" href="#pagetwo" data-transition="slide" data-direction="reverse"><il class=menuil>Fysiologi</il></a>
 		                 <a style="text-decoration: none;" href="#pagetwo" data-transition="slide" data-direction="reverse"><il class=menuil>Træningsprogram</il></a>
-		                 <a style="text-decoration: none;" href="#pagetwo" data-transition="slide" data-direction="reverse"><il class=menuil>Løbesko</il></a>
+		                 <a style="text-decoration: none;" href="?p=shoes" data-transition="slide" data-direction="reverse"><il class=menuil>Løbesko</il></a>
 		                <a style="text-decoration: none;"href="#pagetwo" data-transition="slide" data-direction="reverse"><il class=menuil>Test dig selv</il></a>
 		            </ul>
 		        </div>
@@ -107,7 +106,7 @@ function AdjustIframeHeight(i) { document.getElementById("contentFrame").style.h
 
         <div class="fullbox max-width" id="box0">
 	        <div class="boxinner">
-	        	<iframe onload="AdjustIframeHeightOnLoad()" scrolling="no" seamless id="contentFrame" src="includes/main.html" name="iframe_a" class="ifra" frameborder="0"></iframe>
+	        <? include('includes/'.$page.'.php') ?>
 	        </div>
         </div>
                 <div class="footer">
