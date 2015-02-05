@@ -16,10 +16,16 @@ p {
     float: right;
 }
 
-img {
+.img1 {
     margin-left: 15px;
     margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 15px;
     border: 2px solid #dd8500;
+}
+
+.imgcirkel {
+    -webkit-border-radius: 50em;
+	-moz-border-radius: 50em;
+	border-radius: 50em;
 }
